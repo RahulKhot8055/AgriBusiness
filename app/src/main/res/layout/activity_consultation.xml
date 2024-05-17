@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:orientation="vertical"
+    tools:context=".Consultation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-127dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <ImageView
+        android:id="@+id/veg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/v3"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/veg"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        android:justificationMode="inter_word"
+        android:layout_marginEnd="20dp"
+        android:text="@string/scrolltext"/>
+
+        <TextView
+            android:id="@+id/implinks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Important Links"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+
+
+        <TextView
+            android:id="@+id/L1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/implinks"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:justificationMode="inter_word"
+            android:layout_marginEnd="20dp"
+            android:text="@string/hyperlink"/>
+
+        <TextView
+            android:id="@+id/L2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/L1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:justificationMode="inter_word"
+            android:layout_marginEnd="20dp"
+            android:text="@string/hl1"/>
+
+        <TextView
+            android:id="@+id/L3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/L2"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:justificationMode="inter_word"
+            android:layout_marginEnd="20dp"
+            android:text="@string/hl2"/>
+
+        <TextView
+            android:id="@+id/L4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/L3"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:justificationMode="inter_word"
+            android:layout_marginEnd="20dp"
+            android:text="@string/hl3"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sell Products Here"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/L4"
+            android:textSize="18sp"
+            android:id="@+id/b"/>
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

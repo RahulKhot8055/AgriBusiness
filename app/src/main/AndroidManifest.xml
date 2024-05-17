@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tanuja.agribuisness">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Agribuisness">
+        <activity
+            android:name=".Address"
+            android:exported="true" />
+        <activity
+            android:name=".Consultation"
+            android:exported="true" />
+        <activity
+            android:name=".RetriveRecyclerView"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".SlideShow"
+            android:exported="true" />
+        <activity
+            android:name=".PayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomLogin"
+            android:exported="true" />
+        <activity
+            android:name=".Choose"
+            android:exported="true" />
+        <activity
+            android:name=".SelectUser"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerLogin"
+            android:exported="true" />
+        <activity
+            android:name=".RetriveDataInRecyclerView"
+            android:exported="true" />
+        <activity
+            android:name=".AddVegetables"
+            android:exported="true" />
+        <activity
+            android:name=".list_item"
+            android:exported="true" />
+        <activity
+            android:name=".recycle"
+            android:exported="true" />
+        <activity
+            android:name=".DisplayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddProduct"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileEditSellerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Addveggie"
+            android:exported="true" />
+        <activity
+            android:name=".OtpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavDrawerAct"
+            android:exported="true" />
+        <activity
+            android:name=".AddProduct"
+            android:exported="true"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavDrawer"
+            android:exported="true"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/Theme.Agribuisness.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".DBHelper"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".SSActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

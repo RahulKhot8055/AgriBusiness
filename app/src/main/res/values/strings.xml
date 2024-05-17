@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Agribuisness</string>
+    <string name="or">or</string>
+    <string name="signup">signup</string>
+    <string name="login">login</string>
+    <string name="forgot_your_password">forgetyourpassword</string>
+    <string name="password">password</string>
+    <string name="todo">todo</string>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="get_otp">get otp</string>
+    <string name="enter_otp">enter otp</string>
+    <string name="verify_otp">verify otp</string>
+    <string name="spinner_title">spinner Title</string>
+    <string name="minimum_password" />
+    <string name="auth_failed" />
+    <string name="product_name">Product Name</string>
+    <string name="price">Price</string>
+    <string name="buy">buy</string>
+    <string name="image">Image</string>
+    <string name="scrolltext">The word modern farming means the use of modern technologies,
+    techniques and science for increasing farming productions.
+    Farming is the cultivation of domestic animals, fish, birds, plants, crop etc.
+    for the purpose of food, cloth and other products essential to sustain life.
+    Farming plays an important role in the development of human civilization.
+    Prior to the industrial revolution, most of those people used to do farming for
+    their daily basic needs like food, clothing, and shelter.
+    They had no idea of world marketplace and used to have very low production due
+    to use of traditional farming methods. But now the things have changed.
+
+    Development of agriculture and farming technology has greatly increased the farming
+    productivity. Various types of modern farming methods which are used nowadays are
+    agribusiness, intensive farming, organic farming, and sustainable agriculture, etc.
+    Farmers are now able to buy and sell their products in the world markets. With the
+    increased use of pesticides with synthetic nitrogen, mechanization and mined rock
+    phosphate, the crop production has greatly increased. It has channelized green revolution
+    in cereal production like rice, wheat, corn etc. Previously, farmers used to plough to dig
+    the soil. On the other hand, farmers these days use modern equipment like multi facilities
+    tractor to dig the soil. In the past farmers were dependent on natural weather conditions and
+    fertilizers and used to have very low productivity. Now the things have changed, with the use
+    of synthetic fertilizers,high productive breeds, farming productivity has increased a lot.
+    As we all know, world population is increasing rapidly. We need more products like food, cloth etc.
+    which totally depends on farming production. As a result, we need more production in farming which
+    is quite difficult in traditional farming. Hence, modern farming is a must to get more production
+        according to rapid population growth.</string>
+    <string name="hyperlink"><a href="https://www.india.gov.in/website-ministry-agriculture-farmers-welfare/">
+Website of Ministry of Agriculture and Farmers Welfare</a></string>
+    <string name="hl1"><a href="https://www.india.gov.in/departments-agriculture-states-and-union-territories/">    Departments of Agriculture of states and Union Territories
+</a></string>
+    <string name="hl2"><a href="https://www.india.gov.in/website-department-animal-husbandry-dairying-and-fisheries-0">    Website of Department of Animal Husbandry Dairying and Fisheries
+</a></string>
+    <string name="hl3"><a href="https://www.india.gov.in/farmers-portal">    Farmers Portal
+</a></string>
+
+</resources>
+
+
+

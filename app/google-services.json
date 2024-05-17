@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "921281145951",
+    "project_id": "agribuisness-f1880",
+    "storage_bucket": "agribuisness-f1880.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921281145951:android:c1730e5c9f5ab03de17fea",
+        "android_client_info": {
+          "package_name": "com.tanuja.agribuisness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921281145951-dulbeujssdq4brv5ut4alr1ik9pdmk7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkxXQuIAH3_F6T63a-ZRzN-pbT_5sQSTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921281145951-dulbeujssdq4brv5ut4alr1ik9pdmk7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

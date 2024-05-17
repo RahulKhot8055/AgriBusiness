@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:background="@drawable/log"
+        android:layout_marginTop="20dp"
+         />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="#FF5722"
+        android:textSize="38sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <EditText
+        android:id="@+id/ed_usernameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints=""
+        tools:ignore="HardcodedText,TextFields" />
+
+    <EditText
+        android:id="@+id/ed_passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_your_password"
+        android:textColor="#5283C0"
+        android:textSize="18sp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/login"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:textColor="#5283C0"
+        android:layout_marginStart="250dp"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>
